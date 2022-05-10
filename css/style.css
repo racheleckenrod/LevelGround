@@ -326,4 +326,20 @@ footer img.GLlogo{
 **************************************
   /* ADDITIONAL STYLES
   /*******************************************/
-  
+  @media only screen and (max-width: 600px) {
+    footer img.GLlogo{
+        display: inline-block;
+        margin-left: auto;
+        
+    }
+
+    footer section.address{
+        width: 50%;
+        display: inline-block;
+        padding-left: 5%;
+        padding-bottom: 5%;
+        line-height: 1.8;
+    
+    }
+
+  }
