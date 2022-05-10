@@ -145,19 +145,19 @@ section p{
     text-align: center;
 }
 section.why{
-    height: 400px;
+    min-height: 400px;
     width: 50%;
     margin: auto;
     padding-top: 10%;
 }
 section.grey{
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     background-color:#dbdfe1;
     text-align: center;
 }
 div.box{
-    height: 140px;
+    min-height: 140px;
     width: 256px;
     background-color: #66758a;
     overflow: hidden;
@@ -212,7 +212,7 @@ section.volunteer{
     clear: both;
     background-color: white;
     width: 50%;
-    height: 500px;
+    min-height: 500px;
     margin: auto;
 }
 section.volunteer p{
@@ -327,6 +327,11 @@ footer img.GLlogo{
   /* ADDITIONAL STYLES
   /*******************************************/
   @media only screen and (max-width: 600px) {
+    h1{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3em;
+    }
     footer img.GLlogo{
         display: inline-block;
         margin-left: auto;
@@ -341,5 +346,15 @@ footer img.GLlogo{
         line-height: 1.8;
     
     }
+
+    section.left a, section.right a{
+        border: 1px solid black;
+        padding: 2% 2%;
+        text-decoration: none;
+        color: #161f2a;
+        text-transform: uppercase;
+    }
+
+
 
   }
